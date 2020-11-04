@@ -1,6 +1,6 @@
 <template>
   <div class="job-detail">
-    <RouterLink to="/" class="search-redirect">Aramaya dön</RouterLink>
+    <RouterLink to="/" class="search-redirect">Aramaya Dön</RouterLink>
     <ul class="list-group list-group-flush">
       <li class="list-group-item"> {{ job.result.positionName }}</li>
       <li class="list-group-item">{{ job.result.companyName }}</li>
