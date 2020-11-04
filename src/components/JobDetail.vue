@@ -1,6 +1,6 @@
 <template>
   <div class="job-detail">
-    <RouterLink to="/">Aramaya dön</RouterLink>
+    <RouterLink to="/" class="search-redirect">Aramaya dön</RouterLink>
     <ul class="list-group list-group-flush">
       <li class="list-group-item"> {{ job.result.positionName }}</li>
       <li class="list-group-item">{{ job.result.companyName }}</li>
@@ -30,6 +30,18 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
+.job-detail {
+  max-width: 700px;
+  margin: 0 auto;
+
+  .search-redirect {
+    display: block;
+    padding-left: 20px;
+    color: gray;
+    text-decoration: revert;
+    margin-bottom: 20px;
+  }
+}
 
 </style>

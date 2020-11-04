@@ -5,7 +5,7 @@
         v-model="searchText"
         type="text"
         class="form-control"
-        placeholder="Username"
+        placeholder="Pozisyon, firma adı, sektör"
         aria-label="Username"
         aria-describedby="basic-addon1">
     </div>
@@ -37,6 +37,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<style lang="scss" scoped>
+.job-search {
+  margin-top: 15px;
+}
 </style>

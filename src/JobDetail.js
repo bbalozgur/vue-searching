@@ -6,7 +6,7 @@ export default {
       result: {
         jobId: '1',
         positionName: 'Gerber Operatörü',
-        companyName: 'Test2',
+        companyName: 'netflix',
         durationDay: 0,
         durationDayText: 'Taze çıktı!',
         imageUrl: 'https://localhost/bluecollar/company/job/Default/6.jpg',
@@ -30,7 +30,7 @@ export default {
       result: {
         jobId: '2',
         positionName: 'kıdemli yazilimci',
-        companyName: 'Test2',
+        companyName: 'amazon',
         durationDay: 0,
         durationDayText: 'Taze çıktı!',
         imageUrl: 'https://localhost/bluecollar/company/job/Default/6.jpg',
@@ -54,7 +54,7 @@ export default {
       result: {
         jobId: '3',
         positionName: 'yazilim mühendisliği',
-        companyName: 'Test3',
+        companyName: 'facebook',
         durationDay: 0,
         durationDayText: 'Taze çıktı!',
         imageUrl: 'https://localhost/bluecollar/company/job/Default/6.jpg',
@@ -78,7 +78,7 @@ export default {
       result: {
         jobId: '4',
         positionName: 'backend developer',
-        companyName: 'Test4',
+        companyName: 'twitter',
         durationDay: 0,
         durationDayText: 'Taze çıktı!',
         imageUrl: 'https://localhost/bluecollar/company/job/Default/6.jpg',
@@ -102,7 +102,7 @@ export default {
       result: {
         jobId: '5',
         positionName: 'backend developer',
-        companyName: 'Test5',
+        companyName: 'alibaba',
         durationDay: 0,
         durationDayText: 'Taze çıktı!',
         imageUrl: 'https://localhost/bluecollar/company/job/Default/6.jpg',
